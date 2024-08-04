@@ -38,14 +38,13 @@ export function ProjectCard({
   link,
   image,
   video,
-  imageDimensions = { width: 100, height: 100 },
   links,
   className,
 }: Props) {
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
+        "flex flex-col overflow-hidden border hover:shadow-2xl hover:text-teal-500 transition-all duration-300 ease-out h-full"
       }
     >
       <Link
@@ -66,9 +65,9 @@ export function ProjectCard({
           <Image
             src={image}
             alt={title}
-            className="h-40 w-full overflow-hidden object-cover object-top"
-            // width={100}
-            // height={100}
+            className="h-40 w-full overflow-hidden object-contain"
+            width={160}
+            height={100}
           />
         )}
       </Link>

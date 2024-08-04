@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { CodeIcon, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Faisal Sayed",
@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "A Software Engineer who Love building things and getting his hands dirty in AI.",
   summary:
-    "Currently I am pursuing, [M.Tech CSE @IIT Jammu](/#education). Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
+    "Currently I am pursuing, [M.Tech CSE @IIT Jammu](/#education). Getting my hands dirty in AI/ML. Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
   avatarUrl: "/me.jpg",
   skills: [
     "C/C++",
@@ -29,7 +29,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "#", icon: CodeIcon, label: "Projects" },
+    { href: "/#projects", icon: CodeIcon, label: "Projects" },
   ],
   contact: {
     email: "faisalsayed.cse@gmail.com",
@@ -39,14 +39,12 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/sayyedfaixal",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/sayyedfaisal/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
@@ -182,7 +180,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/vyasAI_logo.png",
       video:
         "",
     },
@@ -206,7 +204,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/teachforindia_logo.svg",
       video:
         "",
     },
@@ -231,7 +229,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/mutual_fund_bot_logo.jpg",
       video:
         "",
     },
@@ -255,7 +253,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/medicare_bot_logo.jpg",
       video:
         "",
     },
@@ -276,7 +274,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/tech_news_logo.png",
       video:
         "",
     },
