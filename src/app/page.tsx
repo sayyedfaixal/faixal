@@ -144,6 +144,7 @@ export default function Page() {
                   dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
+                  imageDimensions={{ width: 800, height: 600 }}
                   video={project.video}
                   links={project.links}
                 />

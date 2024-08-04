@@ -113,7 +113,19 @@ export const DATA = {
       end: "August 2022",
       description:
         "Implemented two new features in React for an internal tool, allowed for changes to Database when uploading an EXCEL sheet. Revamped code for optimization, bug fixes, and improvements. Conducted manual testing to ensure improved performance. Advocated for open-source WYSIWYG editors to aid in code migration in React.",
-    }
+    },
+    {
+      company: " Capriconics Infotech LLP",
+      href: "https://capriconics.com/",
+      badges: [],
+      location: "Mumbai, India",
+      title: "Software Developer",
+      logoUrl: "https://capriconics.com/wp-content/uploads/2022/01/cap-logo-tm.png",
+      start: "May 2021",
+      end: "June 2021",
+      description:
+        "Pursued and Internship at Capriconics Infotech LLP where we were trained Software Development Lifecycle, Software Testing and Digital Marketing.",
+    },
   ],
   education: [
     {
@@ -159,13 +171,108 @@ export const DATA = {
         "I have kickstarted the work of VyasAI. Suggesting the UI design, theme and other feature on the website. Also partially contributing and helping the interns that were working on this project.",
       technologies: [
         "React.js",
+        "HTMLCanvas",
         "TailwindCSS",
-        "firebase",
+        "Firebase",
       ],
       links: [
         {
-          type: "Website",
+          type: "Project Demo",
           href: "https://vyasai.in/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+    {
+      title: "Teach For India",
+      href: "https://teachforindia.netlify.app/",
+      dates: "March 2024 - Present",
+      active: true,
+      description:
+        "Developed a web application using React, ReactBootstrap, and Firebase for Teach For India to manage volunteer registrations and classroom allocations. This was a Prework Assessment.",
+      technologies: [
+        "React.js",
+        "ReactBootstrap",
+        "ReactToast",
+        "Firebase",
+      ],
+      links: [
+        {
+          type: "Project Demo",
+          href: "https://teachforindia.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+    {
+      title: "Mutual Fund Chatbot",
+      href: "https://bot.dialogflow.com/19719ab7-c51b-4cfd-a171-b05810891d3e",
+      dates: "December 2018 - March 2019",
+      active: true,
+      description:
+        "Created and deployed a chatbot for handling customer queries at [KGiSL Mutual Fund](https://www.kgisl.com/). Integrated the Chatbot with multiple platforms, including WhatsApp, Telegram, Google Assistant, and external call APIs, to optimize accessibility and reach.",
+      technologies: [
+        "Python",
+        "HTML/CSS",
+        "Flask",
+        "MySQL",
+        "DialogFlow",
+      ],
+      links: [
+        {
+          type: "Project Demo",
+          href: "https://bot.dialogflow.com/19719ab7-c51b-4cfd-a171-b05810891d3e",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+    {
+      title: "Medicare Chatbot",
+      href: "https://bot.dialogflow.com/ee8686ac-01e2-4f1b-a108-942044cdc0ee",
+      dates: "January 2020 - March 2020",
+      active: true,
+      description: "Chatbot a was a solution for the problem statement at Internal Smart India Hackathon  [SIH](https://www.sih.gov.in/). Chatbot provide healthcare information through a range of communication channels. Integrated the Chatbot with multiple platforms, including WhatsApp, Telegram, Google Assistant, and external call APIs, to optimize accessibility and reach.",
+      technologies: [
+        "Python",
+        "HTML/CSS",
+        "Flask",
+        "MySQL",
+        "DialogFlow",
+      ],
+      links: [
+        {
+          type: "Project Demo",
+          href: "https://bot.dialogflow.com/ee8686ac-01e2-4f1b-a108-942044cdc0ee",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+    {
+      title: "Tech News",
+      href: "https://technewsapi.netlify.app/",
+      dates: "March 2024 - Present",
+      active: true,
+      description: "lorem ipsum",
+      technologies: [
+        "React.Js",
+        "HTML/CSS",
+      ],
+      links: [
+        {
+          type: "Project Demo",
+          href: "https://technewsapi.netlify.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],

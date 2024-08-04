@@ -20,6 +20,7 @@ interface Props {
   link?: string;
   image?: string;
   video?: string;
+  imageDimensions?: { width: number; height: number };
   links?: readonly {
     icon: React.ReactNode;
     type: string;
@@ -37,6 +38,7 @@ export function ProjectCard({
   link,
   image,
   video,
+  imageDimensions = { width: 100, height: 100 },
   links,
   className,
 }: Props) {
@@ -65,6 +67,8 @@ export function ProjectCard({
             src={image}
             alt={title}
             className="h-40 w-full overflow-hidden object-cover object-top"
+            // width={100}
+            // height={100}
           />
         )}
       </Link>
