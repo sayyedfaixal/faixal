@@ -23,7 +23,6 @@ export async function markdownToHTML(markdown: string) {
     .use(remarkParse)
     .use(remarkRehype)
     .use(rehypePrettyCode, {
-      // https://rehype-pretty.pages.dev/#usage
       theme: {
         light: "min-light",
         dark: "min-dark",
@@ -65,4 +64,10 @@ async function getAllPosts(dir: string) {
 
 export async function getBlogPosts() {
   return getAllPosts(path.join(process.cwd(), "content"));
+}
+
+// Add this function to get all post slugs
+export function getPostSlugs() {
+  const files = getMDXFiles(path.join(process.cwd(), "content"));
+  return files.map((file) => path.basename(file, path.extname(file)));
 }

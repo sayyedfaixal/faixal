@@ -1,9 +1,15 @@
-import { getPost } from "@/data/blog";
+import { getPostSlugs, getPost } from "@/data/blog";
 import { DATA } from "@/data/resume";
 import { formatDate } from "@/lib/utils";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
+
+// Add the generateStaticParams function
+export async function generateStaticParams() {
+  const slugs = getPostSlugs();
+  return slugs.map((slug: string) => ({ slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -20,7 +26,9 @@ export async function generateMetadata({
     summary: description,
     image,
   } = post.metadata;
-  let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${title}`;
+  let ogImage = image
+    ? `${DATA.url}${image}`
+    : `${DATA.url}/og?title=${title}`;
 
   return {
     title,
