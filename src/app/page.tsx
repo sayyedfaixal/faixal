@@ -207,7 +207,10 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm on LinkedIn or drop me a Mail{" "}
+                Want to chat? Just shoot me a dm on LinkedIn or drop me a Mail at
+                <span className="text-teal-500">
+                <a href="mailto:faisalsayed.cse@gmail.com"> faisalsayed.cse@gmail.com</a>
+                </span>
                 {/* <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
