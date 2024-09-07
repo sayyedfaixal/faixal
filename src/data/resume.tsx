@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "A Software Engineer who Love building things and getting his hands dirty in AI.",
   summary:
-    "Currently I am pursuing, [M.Tech CSE @IIT Jammu](/#education). Getting my hands dirty in AI/ML. Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
+    "Currently I am pursuing, [M.Tech CSE @IIT Jammu](/#education).Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
   avatarUrl: "/me.jpg",
   skills: [
     "C/C++",
