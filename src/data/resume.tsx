@@ -286,7 +286,7 @@ export const DATA = {
       href: "https://technewsapi.netlify.app/",
       dates: "March 2024 - Present",
       active: true,
-      description: "lorem ipsum",
+      description: "Created to gain knowledge on pagination in React.",
       technologies: [
         "React.Js",
         "HTML/CSS",
