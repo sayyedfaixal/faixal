@@ -84,7 +84,7 @@ export const DATA = {
       title: "Technical Product Manager Intern",
       logoUrl: "https://img.freepik.com/premium-vector/brain-technology-unique-logo_414847-335.jpg",
       start: "March 2024",
-      end: "Present",
+      end: "Sept 2024",
       description:
         " Led a team of four interns at professor's startup, providing guidance and mentorship. Organized and managed sprint planning sessions for efficient progress. Aided in product design and made analytical decisions about feature implementation. Recommended and evaluated technologies to ensure optimal performance and scalability. Ensured high-quality output through regular code reviews, testing, and feedback loops.",
     },
