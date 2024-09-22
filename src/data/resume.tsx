@@ -96,7 +96,7 @@ export const DATA = {
       title: "Software Developer",
       logoUrl: "https://cdn.prod.website-files.com/62f24893562f47d8766501aa/62f24ef3fde2c2f124a46baf_teachforindia_logo.svg",
       start: "March 2023",
-      end: "August 2023",
+      end: "Aug 2023",
       description:
         "Established and maintained Teach For India's application portal, serving approximately 60k teachers across India. Applied MERN stack, MUI, and supporting tech to update app portal based on new wireframe.Advocate for Teach For India's mission and educational equity through internal and external communication.",
     },
@@ -108,7 +108,7 @@ export const DATA = {
       title: "Software Developer",
       logoUrl: "https://www.mitrmedia.com/wp-content/uploads/2023/11/Logo.svg",
       start: "Jun 2021",
-      end: "August 2022",
+      end: "Aug 2022",
       description:
         "Implemented two new features in React for an internal tool, allowed for changes to Database when uploading an EXCEL sheet. Revamped code for optimization, bug fixes, and improvements. Conducted manual testing to ensure improved performance. Advocated for open-source WYSIWYG editors to aid in code migration in React.",
     },
@@ -120,7 +120,7 @@ export const DATA = {
       title: "Software Developer",
       logoUrl: "https://capriconics.com/wp-content/uploads/2022/01/cap-logo-tm.png",
       start: "May 2021",
-      end: "June 2021",
+      end: "Jun 2021",
       description:
         "Pursued and Internship at Capriconics Infotech LLP where we were trained Software Development Lifecycle, Software Testing and Digital Marketing.",
     },
