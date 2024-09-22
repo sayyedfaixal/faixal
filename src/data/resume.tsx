@@ -72,7 +72,7 @@ export const DATA = {
       title: "Salesforce Engineer Intern",
       logoUrl: "https://dwglogo.com/wp-content/uploads/2015/12/Guidewire-Symbol.png",
       start: "May 2024",
-      end: "Present",
+      end: "Aug 2024",
       description:
         "Created custom fields and flows to enhance Salesforce functionality. Developed and optimized test classes, increasing code coverage to 100%. Enhanced Salesforce performance and reliability by identifying and fixing test class issues.",
     },
@@ -160,6 +160,30 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Movie Recommendation System",
+      href: "https://faixal-movie.streamlit.app/",
+      dates: "March 2024 - Present",
+      active: true,
+      description:
+        "I have kickstarted the work of VyasAI. Suggesting the UI design, theme and other feature on the website. Also partially contributing and helping the interns that were working on this project.",
+      technologies: [
+        "React.js",
+        "HTMLCanvas",
+        "TailwindCSS",
+        "Firebase",
+      ],
+      links: [
+        {
+          type: "Project Demo",
+          href: "https://faixal-movie.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/vyasAI_logo.png",
+      video:
+        "",
+    },
     {
       title: "Vyas AI",
       href: "https://vyasai.in/",
