@@ -83,7 +83,7 @@ export const DATA = {
       location: "IIT Jammu, India",
       title: "Technical Product Manager Intern",
       logoUrl: "https://img.freepik.com/premium-vector/brain-technology-unique-logo_414847-335.jpg",
-      start: "March 2024",
+      start: "Mar 2024",
       end: "Sept 2024",
       description:
         " Led a team of four interns at professor's startup, providing guidance and mentorship. Organized and managed sprint planning sessions for efficient progress. Aided in product design and made analytical decisions about feature implementation. Recommended and evaluated technologies to ensure optimal performance and scalability. Ensured high-quality output through regular code reviews, testing, and feedback loops.",
@@ -95,7 +95,7 @@ export const DATA = {
       location: "Mumbai, India",
       title: "Software Developer",
       logoUrl: "https://cdn.prod.website-files.com/62f24893562f47d8766501aa/62f24ef3fde2c2f124a46baf_teachforindia_logo.svg",
-      start: "March 2023",
+      start: "Mar 2023",
       end: "Aug 2023",
       description:
         "Established and maintained Teach For India's application portal, serving approximately 60k teachers across India. Applied MERN stack, MUI, and supporting tech to update app portal based on new wireframe.Advocate for Teach For India's mission and educational equity through internal and external communication.",
@@ -284,7 +284,7 @@ export const DATA = {
     {
       title: "Tech News",
       href: "https://technewsapi.netlify.app/",
-      dates: "March 2024 - Present",
+      dates: "Mar 2024 - Present",
       active: true,
       description: "Created to gain knowledge on pagination in React.",
       technologies: [
