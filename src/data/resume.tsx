@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "A Software Engineer who Love building things and getting his hands dirty in AI.",
   summary:
-    "Currently I am pursuing, [M.Tech CSE @IIT Jammu](/#education).Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
+    "Currently I am pursuing, [M.Tech CSE @IIT Jammu](/#education). Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
   avatarUrl: "/me.jpg",
   skills: [
     "C/C++",
@@ -81,12 +81,12 @@ export const DATA = {
       href: "https://vyasai.in/",
       badges: [],
       location: "IIT Jammu, India",
-      title: "Technical Product Manager Intern",
+      title: "Full Stack Developer",
       logoUrl: "https://img.freepik.com/premium-vector/brain-technology-unique-logo_414847-335.jpg",
       start: "Mar 2024",
-      end: "Sept 2024",
+      end: "Aug 2024",
       description:
-        " Led a team of four interns at professor's startup, providing guidance and mentorship. Organized and managed sprint planning sessions for efficient progress. Aided in product design and made analytical decisions about feature implementation. Recommended and evaluated technologies to ensure optimal performance and scalability. Ensured high-quality output through regular code reviews, testing, and feedback loops.",
+        "Spearheaded the development of the project from the ground up, overseeing end-to-end architecture design, and managing both front-end and back-end implementations while selecting the optimal tech stack and tools. Led a team of six interns, managing daily standups, sprint planning, and ensuring smooth progress. Collaborated with professors and PhD scholars to make analytical decisions and enhance features through brain- storming sessions. Maintained high-quality output by conducting regular code reviews, testing, and providing feedback to the team.",
     },
     {
       company: "Teach For India",
