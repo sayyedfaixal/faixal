@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "A Software Engineer who Love building things and getting his hands dirty in AI.",
   summary:
-    "Currently I am pursuing, [M.Tech CSE @IIT Jammu](/#education). Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
+    "Currently pursuing, [M.Tech CSE @IIT Jammu](/#education). Working on my Research topic [Multitask learning for sentiment and emotion analysis in Marathi language.](/). Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
   avatarUrl: "/me.jpg",
   skills: [
     "C/C++",
@@ -82,7 +82,7 @@ export const DATA = {
       badges: [],
       location: "IIT Jammu, India",
       title: "Full Stack Developer",
-      logoUrl: "https://img.freepik.com/premium-vector/brain-technology-unique-logo_414847-335.jpg",
+      logoUrl: "/vyasai.png",
       start: "Mar 2024",
       end: "Aug 2024",
       description:
@@ -204,7 +204,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/vyasAI_logo.png",
+      image: "/vyasai.png",
       video:
         "",
     },
@@ -332,6 +332,37 @@ export const DATA = {
         "Won the Smart India Hackathon 2019 Grand Finale held at IIT Roorkee. Awarded cash prize and a trophy for solving the problem statement of building a machine learning enabled chatbot for mutual funds.",
       image:
         "https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2019/02/27/76205-2k19.jpg?itok=SoLxwejU",
+      links: [],
+    },
+  ],
+  teaching: [
+    {
+      title: "Python",
+      dates: "April 2023 - December 2023",
+      location: "IIT Jammu",
+      description:
+        "Teaching Python programming to first-year B.Tech students. Tutorials for the exercise questions, evaluated assignments, quizzes & and exams..",
+      image:"https://uxdt.nic.in/wp-content/uploads/2024/06/iit-jammu-01.jpg?x79383",        
+      links: [],
+    },
+    {
+      title: "Data Structure and Algorithms",
+      dates: "January 2024 - May 2024",
+      location: "IIT Jammu",
+      description:
+        "Taught Data Structure and Algorithms to BTech students of IIT Jammu.",
+      image:
+        "https://uxdt.nic.in/wp-content/uploads/2024/06/iit-jammu-01.jpg?x79383",
+      links: [],
+    },
+    {
+      title: "Software Tools",
+      dates: "August 2024 - Present",
+      location: "IIT Jammu",
+      description:
+        "Teaching various programming languages, libraries and technologies such as Python, Numpy, Pandas, Matplotlib, LateX, Virtualization, Git & Github, Deployment etc . to M.Tech(1st yeat) and Ph.D (1st year students) of IIT Jammu",
+      image:
+        "https://uxdt.nic.in/wp-content/uploads/2024/06/iit-jammu-01.jpg?x79383",
       links: [],
     },
   ],
