@@ -24,7 +24,7 @@ export const DATA = {
     "Pandas",
     "Numpy",
     "Git/GitHub",
-    "Dialogflow"
+    "Dialogflow",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -65,36 +65,50 @@ export const DATA = {
 
   work: [
     {
+      company: "ABB",
+      href: "https://www.guidewire.com/",
+      badges: [],
+      location: "Bangalore, India",
+      title: "R&D Engineer Intern",
+      logoUrl: "	https://global.abb/content/dam/abb-etc/commons/abb-logo.svg",
+      start: "Jan 2025",
+      end: "Apr 2024",
+      description:
+        "Led AI-driven R&D on code generation using LLama, Qwen, and Gemma models, accelerating automation in multi-language engineering workflows. Modernized the legacy Flow_Xpert codebase by migrating to .NET MAUI C#, enhancing performance and maintainability for deployment across platforms. Integrated 300+ C++ modules and conducted software R&D to ensure efficient cross-platform computation on Windows, Android, iOS, and macOS.",
+    },
+    {
       company: "Guidewire",
       href: "https://www.guidewire.com/",
       badges: [],
       location: "Bangalore, India",
-      title: "Salesforce Engineer Intern",
-      logoUrl: "https://dwglogo.com/wp-content/uploads/2015/12/Guidewire-Symbol.png",
+      title: "Software Engineer Intern",
+      logoUrl:
+        "https://edge.sitecorecloud.io/guidewiresodb06-guidewire0f2e-productioncd91-5186/media/project/guidewire/guidewire/header/logo.svg?h=49&iar=0&w=308",
       start: "May 2024",
       end: "Aug 2024",
       description:
-        "Created custom fields and flows to enhance Salesforce functionality. Developed and optimized test classes, increasing code coverage to 100%. Enhanced Salesforce performance and reliability by identifying and fixing test class issues.",
+        "Tasked with improving the performance of existing Salesforce applications, implemented modules using LWC, Apex, and SOQL, which enhanced API response time by 30% for 500+ daily users.  Refactored outdated test classes and integrated mock data strategies, elevating code coverage from 65% to 100% and reducing deployment failures by 40%. Automated user access configurations with Apex triggers, minimizing unauthorized access incidents and simplifying profile management",
     },
     {
       company: "Vyas AI",
       href: "https://vyasai.in/",
       badges: [],
       location: "IIT Jammu, India",
-      title: "Full Stack Developer",
+      title: "Data Scientist Intern",
       logoUrl: "/vyasai.png",
       start: "Mar 2024",
       end: "Aug 2024",
       description:
-        "Spearheaded the development of the project from the ground up, overseeing end-to-end architecture design, and managing both front-end and back-end implementations while selecting the optimal tech stack and tools. Led a team of six interns, managing daily standups, sprint planning, and ensuring smooth progress. Collaborated with professors and PhD scholars to make analytical decisions and enhance features through brain- storming sessions. Maintained high-quality output by conducting regular code reviews, testing, and providing feedback to the team.",
+        "Identified inefficiencies in manual data entry and developed Excel-integrated React components, eliminating manual input and improving content update efficiency by 100%. Integrated open-source WYSIWYG editors to replace paid alternatives, which improved usability and saved $450 annually in licensing costs. Enhanced the performance and reliability of legacy code by optimizing workflows and fixing critical bugs, resulting in a 30% boost in overall application speed.",
     },
     {
       company: "Teach For India",
       href: "https://www.teachforindia.org/",
       badges: [],
       location: "Mumbai, India",
-      title: "Software Developer",
-      logoUrl: "https://cdn.prod.website-files.com/62f24893562f47d8766501aa/62f24ef3fde2c2f124a46baf_teachforindia_logo.svg",
+      title: "Full Stack Developer (Part Time)",
+      logoUrl:
+        "https://cdn.prod.website-files.com/62f24893562f47d8766501aa/62f24ef3fde2c2f124a46baf_teachforindia_logo.svg",
       start: "Mar 2023",
       end: "Aug 2023",
       description:
@@ -110,15 +124,16 @@ export const DATA = {
       start: "Jun 2021",
       end: "Aug 2022",
       description:
-        "Implemented two new features in React for an internal tool, allowed for changes to Database when uploading an EXCEL sheet. Revamped code for optimization, bug fixes, and improvements. Conducted manual testing to ensure improved performance. Advocated for open-source WYSIWYG editors to aid in code migration in React.",
+        "Identified inefficiencies in manual data entry and developed Excel-integrated React components, eliminating manual input and improving content update efficiency by 100%. Integrated open-source WYSIWYG editors to replace paid alternatives, which improved usability and saved $450 annually in licensing costs. Enhanced the performance and reliability of legacy code by optimizing workflows and fixing critical bugs, resulting in a 30% boost in overall application speed.",
     },
     {
       company: " Capriconics Infotech LLP",
       href: "https://capriconics.com/",
       badges: [],
       location: "Mumbai, India",
-      title: "Software Developer",
-      logoUrl: "https://capriconics.com/wp-content/uploads/2022/01/cap-logo-tm.png",
+      title: "Software Developer Intern",
+      logoUrl:
+        "https://capriconics.com/wp-content/uploads/2022/01/cap-logo-tm.png",
       start: "May 2021",
       end: "Jun 2021",
       description:
@@ -146,7 +161,8 @@ export const DATA = {
       school: "R.J College",
       href: "https://www.rjcollege.edu.in/",
       degree: "HSC Science",
-      logoUrl: "https://rjcollegemainwebsitedata.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/11/College-Logo-2023-pink.png",
+      logoUrl:
+        "https://rjcollegemainwebsitedata.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/11/College-Logo-2023-pink.png",
       start: "2014",
       end: "2016",
     },
@@ -163,16 +179,11 @@ export const DATA = {
     {
       title: "Movie Recommendation System",
       href: "https://faixal-movie.streamlit.app/",
-      dates: "March 2024 - Present",
+      dates: "Mar 2024 - Present",
       active: true,
       description:
         "I have kickstarted the work of VyasAI. Suggesting the UI design, theme and other feature on the website. Also partially contributing and helping the interns that were working on this project.",
-      technologies: [
-        "React.js",
-        "HTMLCanvas",
-        "TailwindCSS",
-        "Firebase",
-      ],
+      technologies: ["React.js", "HTMLCanvas", "TailwindCSS", "Firebase"],
       links: [
         {
           type: "Project Demo",
@@ -181,22 +192,16 @@ export const DATA = {
         },
       ],
       image: "/vyasAI_logo.png",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Vyas AI",
       href: "https://vyasai.in/",
-      dates: "March 2024 - Present",
+      dates: "Mar 2024 - Present",
       active: true,
       description:
         "I have kickstarted the work of VyasAI. Suggesting the UI design, theme and other feature on the website. Also partially contributing and helping the interns that were working on this project.",
-      technologies: [
-        "React.js",
-        "HTMLCanvas",
-        "TailwindCSS",
-        "Firebase",
-      ],
+      technologies: ["React.js", "HTMLCanvas", "TailwindCSS", "Firebase"],
       links: [
         {
           type: "Project Demo",
@@ -205,22 +210,16 @@ export const DATA = {
         },
       ],
       image: "/vyasai.png",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Teach For India",
       href: "https://teachforindia.netlify.app/",
-      dates: "March 2024 - Present",
+      dates: "Mar 2024 - Present",
       active: true,
       description:
         "Developed a web application using React, ReactBootstrap, and Firebase for Teach For India to manage volunteer registrations and classroom allocations. This was a Prework Assessment.",
-      technologies: [
-        "React.js",
-        "ReactBootstrap",
-        "ReactToast",
-        "Firebase",
-      ],
+      technologies: ["React.js", "ReactBootstrap", "ReactToast", "Firebase"],
       links: [
         {
           type: "Project Demo",
@@ -229,23 +228,16 @@ export const DATA = {
         },
       ],
       image: "/teachforindia_logo.svg",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Mutual Fund Chatbot",
       href: "https://bot.dialogflow.com/19719ab7-c51b-4cfd-a171-b05810891d3e",
-      dates: "December 2018 - March 2019",
+      dates: "December 2018 - Mar 2019",
       active: true,
       description:
         "Created and deployed a chatbot for handling customer queries at [KGiSL Mutual Fund](https://www.kgisl.com/). Integrated the Chatbot with multiple platforms, including WhatsApp, Telegram, Google Assistant, and external call APIs, to optimize accessibility and reach.",
-      technologies: [
-        "Python",
-        "HTML/CSS",
-        "Flask",
-        "MySQL",
-        "DialogFlow",
-      ],
+      technologies: ["Python", "HTML/CSS", "Flask", "MySQL", "DialogFlow"],
       links: [
         {
           type: "Project Demo",
@@ -254,22 +246,16 @@ export const DATA = {
         },
       ],
       image: "/mutual_fund_bot_logo.jpg",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Medicare Chatbot",
       href: "https://bot.dialogflow.com/ee8686ac-01e2-4f1b-a108-942044cdc0ee",
-      dates: "January 2020 - March 2020",
+      dates: "Jan 2020 - Mar 2020",
       active: true,
-      description: "Chatbot a was a solution for the problem statement at Internal Smart India Hackathon  [SIH](https://www.sih.gov.in/). Chatbot provide healthcare information through a range of communication channels. Integrated the Chatbot with multiple platforms, including WhatsApp, Telegram, Google Assistant, and external call APIs, to optimize accessibility and reach.",
-      technologies: [
-        "Python",
-        "HTML/CSS",
-        "Flask",
-        "MySQL",
-        "DialogFlow",
-      ],
+      description:
+        "Chatbot a was a solution for the problem statement at Internal Smart India Hackathon  [SIH](https://www.sih.gov.in/). Chatbot provide healthcare information through a range of communication channels. Integrated the Chatbot with multiple platforms, including WhatsApp, Telegram, Google Assistant, and external call APIs, to optimize accessibility and reach.",
+      technologies: ["Python", "HTML/CSS", "Flask", "MySQL", "DialogFlow"],
       links: [
         {
           type: "Project Demo",
@@ -278,8 +264,7 @@ export const DATA = {
         },
       ],
       image: "/medicare_bot_logo.jpg",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Tech News",
@@ -287,10 +272,7 @@ export const DATA = {
       dates: "Mar 2024 - Present",
       active: true,
       description: "Created to gain knowledge on pagination in React.",
-      technologies: [
-        "React.Js",
-        "HTML/CSS",
-      ],
+      technologies: ["React.Js", "HTML/CSS"],
       links: [
         {
           type: "Project Demo",
@@ -299,14 +281,13 @@ export const DATA = {
         },
       ],
       image: "/tech_news_logo.png",
-      video:
-        "",
+      video: "",
     },
   ],
   hackathons: [
     {
       title: "Airbus Aerothon 3.0",
-      dates: "April 2021 - May 2021",
+      dates: "Apr 2021 - May 2021",
       location: "M.H Saboo Siddik, India",
       description:
         "Reached up to the final round competing with 185 teams across India.",
@@ -316,7 +297,7 @@ export const DATA = {
     },
     {
       title: "Smart India Hackathon",
-      dates: "January 2020 - February 2020",
+      dates: "Jan 2020 - February 2020",
       location: "M.H Saboo Siddik, India",
       description:
         "Participated in the Interal Smart India Hackathon. Awarded with the certificate for the same.",
@@ -326,7 +307,7 @@ export const DATA = {
     },
     {
       title: "Winner of World's Largest Hackathon",
-      dates: "February 2019 - March 2019",
+      dates: "February 2019 - Mar 2019",
       location: "IIT Roorkee, India",
       description:
         "Won the Smart India Hackathon 2019 Grand Finale held at IIT Roorkee. Awarded cash prize and a trophy for solving the problem statement of building a machine learning enabled chatbot for mutual funds.",
@@ -338,16 +319,17 @@ export const DATA = {
   teaching: [
     {
       title: "Python",
-      dates: "April 2023 - December 2023",
+      dates: "Apr 2023 - December 2023",
       location: "IIT Jammu",
       description:
         "Teaching Python programming to first-year B.Tech students. Tutorials for the exercise questions, evaluated assignments, quizzes & and exams..",
-      image:"https://uxdt.nic.in/wp-content/uploads/2024/06/iit-jammu-01.jpg?x79383",        
+      image:
+        "https://uxdt.nic.in/wp-content/uploads/2024/06/iit-jammu-01.jpg?x79383",
       links: [],
     },
     {
       title: "Data Structure and Algorithms",
-      dates: "January 2024 - May 2024",
+      dates: "Jan 2024 - May 2024",
       location: "IIT Jammu",
       description:
         "Taught Data Structure and Algorithms to BTech students of IIT Jammu.",
@@ -357,7 +339,7 @@ export const DATA = {
     },
     {
       title: "Software Tools",
-      dates: "August 2024 - Present",
+      dates: "Aug 2024 - Present",
       location: "IIT Jammu",
       description:
         "Teaching various programming languages, libraries and technologies such as Python, Numpy, Pandas, Matplotlib, LateX, Virtualization, Git & Github, Deployment etc . to M.Tech(1st yeat) and Ph.D (1st year students) of IIT Jammu",
