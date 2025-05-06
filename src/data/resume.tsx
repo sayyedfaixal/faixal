@@ -99,7 +99,7 @@ export const DATA = {
       start: "Mar 2024",
       end: "Aug 2024",
       description:
-        " Faced with inconsistent large-scale datasets, led efforts to perform EDA and streamline data pipelines using Pandas and NumPy, which resulted in a 30% reduction in data inconsistencies and 25% improvement in model training efficiency.– Engineered relevant features and collaborated with the team to optimize model hyperparameters, leading to a 15% boost in predictive performance.– Produced visual dashboards using Matplotlib and Seaborn that helped to quickly interpret data insights and improve strategic decisions.",
+        " Faced with inconsistent large-scale datasets, led efforts to perform EDA and streamline data pipelines using Pandas and NumPy, which resulted in a 30% reduction in data inconsistencies and 25% improvement in model training efficiency. Engineered relevant features and collaborated with the team to optimize model hyperparameters, leading to a 15% boost in predictive performance. Produced visual dashboards using Matplotlib and Seaborn that helped to quickly interpret data insights and improve strategic decisions.",
     },
     {
       company: "Teach For India",
