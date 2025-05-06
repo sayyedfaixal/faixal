@@ -99,7 +99,7 @@ export const DATA = {
       start: "Mar 2024",
       end: "Aug 2024",
       description:
-        "Identified inefficiencies in manual data entry and developed Excel-integrated React components, eliminating manual input and improving content update efficiency by 100%. Integrated open-source WYSIWYG editors to replace paid alternatives, which improved usability and saved $450 annually in licensing costs. Enhanced the performance and reliability of legacy code by optimizing workflows and fixing critical bugs, resulting in a 30% boost in overall application speed.",
+        " Faced with inconsistent large-scale datasets, led efforts to perform EDA and streamline data pipelines using Pandas and NumPy, which resulted in a 30% reduction in data inconsistencies and 25% improvement in model training efficiency.– Engineered relevant features and collaborated with the team to optimize model hyperparameters, leading to a 15% boost in predictive performance.– Produced visual dashboards using Matplotlib and Seaborn that helped to quickly interpret data insights and improve strategic decisions.",
     },
     {
       company: "Teach For India",
