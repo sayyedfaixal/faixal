@@ -74,30 +74,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      <section id="education">
-        <div className="flex min-h-0 flex-col gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-bold">Education</h2>
-          </BlurFade>
-          {DATA.education.map((education, id) => (
-            <BlurFade
-              key={education.school}
-              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
-            >
-              <ResumeCard
-                key={education.school}
-                href={education.href}
-                logoUrl={education.logoUrl}
-                altText={education.school}
-                title={education.school}
-                subtitle={education.degree}
-                period={`${education.start} - ${education.end}`}
-              />
-            </BlurFade>
-          ))}
-        </div>
-      </section>
-      <section id="skills">
+      {/* <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
@@ -110,7 +87,7 @@ export default function Page() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -120,12 +97,13 @@ export default function Page() {
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my latest work
+                  Check out my Work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I&apos;ve worked on a variety of projects, that include from{" "}
+                  <br />
+                  <strong> Simple websites to complex AI/ML projects</strong>.
+                  Here are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -151,6 +129,29 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+        </div>
+      </section>
+      <section id="education">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Education</h2>
+          </BlurFade>
+          {DATA.education.map((education, id) => (
+            <BlurFade
+              key={education.school}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
+              <ResumeCard
+                key={education.school}
+                href={education.href}
+                logoUrl={education.logoUrl}
+                altText={education.school}
+                title={education.school}
+                subtitle={education.degree}
+                period={`${education.start} - ${education.end}`}
+              />
+            </BlurFade>
+          ))}
         </div>
       </section>
       <section id="hackathons">
@@ -208,7 +209,9 @@ export default function Page() {
                   Teaching Assistant @IIT Jammu
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Apart from Coding, I also work as a Teaching Assistant at IIT Jammu. Mentoring B.Tech (All Year), M.Tech (1st Year), Ph.D (1st Year) students across different course 
+                  Apart from Coding, I also work as a Teaching Assistant at IIT
+                  Jammu. Mentoring B.Tech (All Year), M.Tech (1st Year), Ph.D
+                  (1st Year) students across different course
                 </p>
               </div>
             </div>
@@ -245,9 +248,13 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm on LinkedIn or drop me a Mail at
+                Want to chat? Just shoot me a dm on LinkedIn or drop me a Mail
+                at
                 <span className="text-teal-500">
-                <a href="mailto:faisalsayed.cse@gmail.com"> faisalsayed.cse@gmail.com</a>
+                  <a href="mailto:faisalsayed.cse@gmail.com">
+                    {" "}
+                    faisalsayed.cse@gmail.com
+                  </a>
                 </span>
                 {/* <Link
                   href={DATA.contact.social.X.url}

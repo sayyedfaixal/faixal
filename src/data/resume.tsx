@@ -179,28 +179,150 @@ export const DATA = {
     {
       title: "Movie Recommendation System",
       href: "https://faixal-movie.streamlit.app/",
-      dates: "Mar 2024 - Present",
+      dates: "Mar 2024 - Apr 2024",
       active: true,
       description:
-        "I have kickstarted the work of VyasAI. Suggesting the UI design, theme and other feature on the website. Also partially contributing and helping the interns that were working on this project.",
-      technologies: ["React.js", "HTMLCanvas", "TailwindCSS", "Firebase"],
+        "**Welcome to the Movie Recommendation System!** This project is designed to recommend movies based on their **content similarity**, using a dataset of **5000 movies from TMDB**. Built using Python, it offers an intuitive and interactive interface powered by Streamlit.",
+      technologies: ["Numpy", "Pandas", "Scikit-Learn", "Streamlit"],
       links: [
         {
           type: "Project Demo",
           href: "https://faixal-movie.streamlit.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Code",
+          href: "https://github.com/sayyedfaixal/move-recommendation",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "/vyasAI_logo.png",
+      image: "/movies.jpg",
+      video: "",
+    },
+    {
+      title: "MIRNet Image Processing",
+      href: "https://quicksell-omega-orpin.vercel.app/",
+      dates: "Aug 2024 - Oct 2024",
+      active: true,
+      description:
+        "**Implemented the MIRNet model from the research paper** as part of our **M.Tech** end-semester **project** in Image Processing. The project focuses on **image restoration** using deep learning, where MIRNet was used to enhance and **denoise real-world degraded images**. As an extension to the original paper, **we introduced an additional sharpening** module to restore texture and detail that were **slightly smoothed** out by the MIRNet model, making the **final output visually sharper** and more defined.",
+      technologies: ["Numpy", "Pandas", "Keras", "TensorFlow"],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/sayyedfaixal/Image_Processing",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/MIRNet.png",
+      video: "",
+    },
+    {
+      title: "Credit Card Anomaly Detection",
+      href: "https://github.com/sayyedfaixal/credit-card-anomaly",
+      dates: "Aug 2024 - Aug 2024",
+      active: true,
+      description:
+        "Built an **Anomaly detection system** using the Kaggle Credit Card Fraud Detection dataset to identify fraudulent transactions in real-time. The project tackles a highly imbalanced classification problem, with frauds accounting for just 0.172% of total transactions.",
+      technologies: [
+        "Python",
+        "Scikit-Learn",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn",
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/sayyedfaixal/credit-card-anomaly",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/CreditCard.jpg",
+      video: "",
+    },
+    {
+      title: "Cricket Score Predictor",
+      href: "https://github.com/sayyedfaixal/cricket-score-predictor",
+      dates: "Jun 2024 - Jun 2024",
+      active: true,
+      description:
+        "Built a **machine learning-based** T20 Cricket Score Predictor that estimates the final score of a team based on the current match context. The app leverages T20 World Cup data and considers critical parameters like runs, wickets, overs, batting team, bowling team, and city.",
+      technologies: [
+        "Python",
+        "Streamlit",
+        "XGBoost",
+        "Pandas",
+        "NumPy",
+        "Scikit-Learn",
+        "Pickle",
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/sayyedfaixal/cricket-score-predictor",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Ipl.jpg",
+      video: "",
+    },
+    {
+      title: "Airline Data Analysis Dashboard",
+      href: "https://github.com/sayyedfaixal/airline-data-analysis",
+      dates: "Jul 2024 - Jul 2024",
+      active: true,
+      description:
+        "**Developed an interactive dashboard** using Streamlit to analyze airline data stored in SQLite databases. The application allows users to upload SQLite files, dynamically select tables, and perform comprehensive **Data exploration and visualization**.",
+      technologies: [
+        "Python",
+        "Streamlit",
+        "SQLite",
+        "Pandas",
+        "Seaborn",
+        "Matplotlib",
+      ],
+      links: [
+        {
+          type: "Code",
+          href: "https://github.com/sayyedfaixal/airline-data-analysis",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/airplane.jpg",
+      video: "",
+    },
+    {
+      title: "QuickSell Kanban",
+      href: "https://quicksell-omega-orpin.vercel.app/",
+      dates: "Sep 2024 - Sep 2024",
+      active: true,
+      description:
+        "This Kanban Board application was the assignment of **QuickSell** that was built using React.js + Vite and allows users to manage tasks effectively. The application fetches data from an **external API** and provides functionalities to **group and sort** tasks based on various criteria.",
+      technologies: ["Numpy", "Pandas", "Scikit-Learn", "Streamlit"],
+      links: [
+        {
+          type: "Project Demo",
+          href: "https://quicksell-omega-orpin.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Code",
+          href: "https://github.com/sayyedfaixal/Quicksell",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/Kanban.svg",
       video: "",
     },
     {
       title: "Vyas AI",
       href: "https://vyasai.in/",
-      dates: "Mar 2024 - Present",
+      dates: "Mar 2024 - Aug 2024",
+
       active: true,
       description:
-        "I have kickstarted the work of VyasAI. Suggesting the UI design, theme and other feature on the website. Also partially contributing and helping the interns that were working on this project.",
+        "I have **kickstarted the work of VyasAI from scratch**. Suggesting the UI design, theme project planning, standup meetings etc and other feature on the website. Apart from this I have worked here as a **Data Scientist Intern** I have also **partially contributing and helping the interns that were working on this project**.",
       technologies: ["React.js", "HTMLCanvas", "TailwindCSS", "Firebase"],
       links: [
         {
@@ -215,7 +337,7 @@ export const DATA = {
     {
       title: "Teach For India",
       href: "https://teachforindia.netlify.app/",
-      dates: "Mar 2024 - Present",
+      dates: "Mar 2022 - Apr 2022",
       active: true,
       description:
         "Developed a web application using React, ReactBootstrap, and Firebase for Teach For India to manage volunteer registrations and classroom allocations. This was a Prework Assessment.",
@@ -262,6 +384,11 @@ export const DATA = {
           href: "https://bot.dialogflow.com/ee8686ac-01e2-4f1b-a108-942044cdc0ee",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Code",
+          href: "https://bot.dialogflow.com/ee8686ac-01e2-4f1b-a108-942044cdc0ee",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "/medicare_bot_logo.jpg",
       video: "",
@@ -269,7 +396,7 @@ export const DATA = {
     {
       title: "Tech News",
       href: "https://technewsapi.netlify.app/",
-      dates: "Mar 2024 - Present",
+      dates: "Feb 2023 - Mar 2023",
       active: true,
       description: "Created to gain knowledge on pagination in React.",
       technologies: ["React.Js", "HTML/CSS"],
@@ -339,7 +466,7 @@ export const DATA = {
     },
     {
       title: "Software Tools",
-      dates: "Aug 2024 - Present",
+      dates: "Aug 2024 - Dec 2024",
       location: "IIT Jammu",
       description:
         "Teaching various programming languages, libraries and technologies such as Python, Numpy, Pandas, Matplotlib, LateX, Virtualization, Git & Github, Deployment etc . to M.Tech(1st yeat) and Ph.D (1st year students) of IIT Jammu",
