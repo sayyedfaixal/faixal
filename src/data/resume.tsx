@@ -8,10 +8,11 @@ export const DATA = {
   location: "Mumbai, India",
   locationLink: "",
   description:
-    "A Software Engineer who Love building things and getting his hands dirty in AI.",
+    "An Engineer who loves building things and experimenting with AI.",
   summary:
-    "Currently pursuing, [M.Tech CSE @IIT Jammu](/#education). Working on my Research topic [Multitask learning for sentiment and emotion analysis in Marathi language.](/). Prior joining my M.Tech [I worked as a full-stack software engineer with two years of development experience](/#work).  [Participated in 3 hackathons](/#hackathons).",
+    "Analyst Developer @ FNZ. Thrilled to share that my research paper has been accepted at EMNLP 2025 🥳. Before pursuing my M.Tech, I worked as a full-stack software engineer with two years of experience. Also participated in 3 hackathons.",
   avatarUrl: "/me.jpg",
+
   skills: [
     "C/C++",
     "Python",
@@ -26,11 +27,12 @@ export const DATA = {
     "Git/GitHub",
     "Dialogflow",
   ],
+
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
     { href: "/#projects", icon: CodeIcon, label: "Projects" },
   ],
+
   contact: {
     email: "faisalsayed.cse@gmail.com",
     tel: "+91 703******3",
@@ -51,7 +53,6 @@ export const DATA = {
         name: "X",
         url: "https://x.com/sayyedfaixal",
         icon: Icons.x,
-
         navbar: true,
       },
       email: {
@@ -65,16 +66,29 @@ export const DATA = {
 
   work: [
     {
+      company: "FNZ",
+      href: "https://www.fnz.com/",
+      badges: [],
+      location: "Gurugram, India",
+      title: "Analyst Developer",
+      logoUrl:
+        "http://upload.wikimedia.org/wikipedia/commons/f/f1/FNZ_Logo.svg",
+      start: "Jun 2025",
+      end: "Present",
+      description:
+        "Working on FNZ’s core platform, contributing to foundational technology powering global fintech solutions.",
+    },
+    {
       company: "ABB",
-      href: "https://www.guidewire.com/",
+      href: "https://www.abb.com/global/en",
       badges: [],
       location: "Bangalore, India",
       title: "R&D Engineer Intern",
-      logoUrl: "	https://global.abb/content/dam/abb-etc/commons/abb-logo.svg",
+      logoUrl: "https://global.abb/content/dam/abb-etc/commons/abb-logo.svg",
       start: "Jan 2025",
-      end: "Apr 2024",
+      end: "Apr 2025",
       description:
-        "Led AI-driven R&D on code generation using LLama, Qwen, and Gemma models, accelerating automation in multi-language engineering workflows. Modernized the legacy Flow_Xpert codebase by migrating to .NET MAUI C#, enhancing performance and maintainability for deployment across platforms. Integrated 300+ C++ modules and conducted software R&D to ensure efficient cross-platform computation on Windows, Android, iOS, and macOS.",
+        "Developed AI-driven code generation workflows using LLaMA, Qwen, and Gemma models. Modernized legacy Flow_Xpert by migrating it to .NET MAUI, improving performance and multi-platform compatibility. Integrated 300+ C++ modules and optimised computation across Windows, Android, iOS, and macOS.",
     },
     {
       company: "Guidewire",
@@ -87,7 +101,7 @@ export const DATA = {
       start: "May 2024",
       end: "Aug 2024",
       description:
-        "Tasked with improving the performance of existing Salesforce applications, implemented modules using LWC, Apex, and SOQL, which enhanced API response time by 30% for 500+ daily users.  Refactored outdated test classes and integrated mock data strategies, elevating code coverage from 65% to 100% and reducing deployment failures by 40%. Automated user access configurations with Apex triggers, minimizing unauthorized access incidents and simplifying profile management",
+        "Improved performance of Salesforce systems using LWC, Apex, and SOQL, reducing API response time by 30% for 500+ daily users. Refactored test classes and implemented mock data strategies, increasing code coverage from 65% to 100% and reducing deployment failures by 40%. Automated user access workflows with Apex triggers to enhance security.",
     },
     {
       company: "Vyas AI",
@@ -97,9 +111,9 @@ export const DATA = {
       title: "Data Scientist Intern",
       logoUrl: "/vyasai.png",
       start: "Mar 2024",
-      end: "Aug 2024",
+      end: "Feb 2025",
       description:
-        " Faced with inconsistent large-scale datasets, led efforts to perform EDA and streamline data pipelines using Pandas and NumPy, which resulted in a 30% reduction in data inconsistencies and 25% improvement in model training efficiency. Engineered relevant features and collaborated with the team to optimize model hyperparameters, leading to a 15% boost in predictive performance. Produced visual dashboards using Matplotlib and Seaborn that helped to quickly interpret data insights and improve strategic decisions.",
+        "Performed EDA and optimized data pipelines using Pandas and NumPy, reducing data inconsistencies by 30% and improving model training efficiency by 25%. Engineered features and tuned hyperparameters to achieve a 15% boost in predictive performance. Delivered dashboards using Matplotlib and Seaborn for faster decision-making. Also contributed as a full-stack developer.",
     },
     {
       company: "Teach For India",
@@ -112,7 +126,7 @@ export const DATA = {
       start: "Mar 2023",
       end: "Aug 2023",
       description:
-        "Established and maintained Teach For India's application portal, serving approximately 60k teachers across India. Applied MERN stack, MUI, and supporting tech to update app portal based on new wireframe.Advocate for Teach For India's mission and educational equity through internal and external communication.",
+        "Maintained and enhanced Teach For India’s application portal used by ~60k teachers nationwide. Implemented updates with the MERN stack and MUI, and supported new feature rollouts.",
     },
     {
       company: "MITR Learning & Media",
@@ -124,10 +138,10 @@ export const DATA = {
       start: "Jun 2021",
       end: "Aug 2022",
       description:
-        "Identified inefficiencies in manual data entry and developed Excel-integrated React components, eliminating manual input and improving content update efficiency by 100%. Integrated open-source WYSIWYG editors to replace paid alternatives, which improved usability and saved $450 annually in licensing costs. Enhanced the performance and reliability of legacy code by optimizing workflows and fixing critical bugs, resulting in a 30% boost in overall application speed.",
+        "Eliminated manual data entry by building Excel-integrated React components, doubling content update efficiency. Replaced paid editors with open-source alternatives, saving $450 annually. Improved reliability of legacy code and boosted app performance by 30% through workflow optimizations.",
     },
     {
-      company: " Capriconics Infotech LLP",
+      company: "Capriconics Infotech LLP",
       href: "https://capriconics.com/",
       badges: [],
       location: "Mumbai, India",
@@ -137,14 +151,15 @@ export const DATA = {
       start: "May 2021",
       end: "Jun 2021",
       description:
-        "Pursued and Internship at Capriconics Infotech LLP where we were trained Software Development Lifecycle, Software Testing and Digital Marketing.",
+        "Completed training in SDLC, software testing, and digital marketing during the internship.",
     },
   ],
+
   education: [
     {
       school: "Indian Institute of Technology, Jammu (IIT Jammu)",
       href: "https://www.iitjammu.ac.in/",
-      degree: "M.Tech Computer Science and Engineering - Masters",
+      degree: "M.Tech in Computer Science and Engineering",
       logoUrl: "https://www.iitjammu.ac.in/assets/front/images/logo.png",
       start: "2023",
       end: "2025",
@@ -152,7 +167,7 @@ export const DATA = {
     {
       school: "M.H Saboo Siddik College of Engineering (University of Mumbai)",
       href: "https://www.mhssce.ac.in/",
-      degree: "B.E Computer Science and Engineering - Bachelors",
+      degree: "B.E in Computer Science and Engineering",
       logoUrl: "https://www.mhssce.ac.in/images/logo.png",
       start: "2017",
       end: "2021",
@@ -175,6 +190,7 @@ export const DATA = {
       end: "2014",
     },
   ],
+
   projects: [
     {
       title: "Movie Recommendation System",
@@ -182,7 +198,7 @@ export const DATA = {
       dates: "Mar 2024 - Apr 2024",
       active: true,
       description:
-        "**Welcome to the Movie Recommendation System!** This project is designed to recommend movies based on their **content similarity**, using a dataset of **5000 movies from TMDB**. Built using Python, it offers an intuitive and interactive interface powered by Streamlit.",
+        "Built a content-based Movie Recommendation System using a dataset of 5000 TMDB movies. The Streamlit app provides an interactive interface powered by Python and Scikit-Learn.",
       technologies: ["Numpy", "Pandas", "Scikit-Learn", "Streamlit"],
       links: [
         {
@@ -205,7 +221,7 @@ export const DATA = {
       dates: "Aug 2024 - Oct 2024",
       active: true,
       description:
-        "**Implemented the MIRNet model from the research paper** as part of our **M.Tech** end-semester **project** in Image Processing. The project focuses on **image restoration** using deep learning, where MIRNet was used to enhance and **denoise real-world degraded images**. As an extension to the original paper, **we introduced an additional sharpening** module to restore texture and detail that were **slightly smoothed** out by the MIRNet model, making the **final output visually sharper** and more defined.",
+        "Implemented the MIRNet model for image restoration as part of an M.Tech project. Added a custom sharpening module to enhance texture and detail beyond the original architecture.",
       technologies: ["Numpy", "Pandas", "Keras", "TensorFlow"],
       links: [
         {
@@ -220,10 +236,10 @@ export const DATA = {
     {
       title: "Credit Card Anomaly Detection",
       href: "https://github.com/sayyedfaixal/credit-card-anomaly",
-      dates: "Aug 2024 - Aug 2024",
+      dates: "Aug 2024",
       active: true,
       description:
-        "Built an **Anomaly detection system** using the Kaggle Credit Card Fraud Detection dataset to identify fraudulent transactions in real-time. The project tackles a highly imbalanced classification problem, with frauds accounting for just 0.172% of total transactions.",
+        "Developed an anomaly detection system using the Kaggle Credit Card Fraud dataset. Handled extreme class imbalance (0.172% fraud) using ML techniques and visual analytics.",
       technologies: [
         "Python",
         "Scikit-Learn",
@@ -244,10 +260,10 @@ export const DATA = {
     {
       title: "Cricket Score Predictor",
       href: "https://github.com/sayyedfaixal/cricket-score-predictor",
-      dates: "Jun 2024 - Jun 2024",
+      dates: "Jun 2024",
       active: true,
       description:
-        "Built a **machine learning-based** T20 Cricket Score Predictor that estimates the final score of a team based on the current match context. The app leverages T20 World Cup data and considers critical parameters like runs, wickets, overs, batting team, bowling team, and city.",
+        "Built an ML-based T20 Cricket Score Predictor using historical World Cup data. Considers runs, wickets, overs, teams, and venue to estimate final scores.",
       technologies: [
         "Python",
         "Streamlit",
@@ -270,10 +286,10 @@ export const DATA = {
     {
       title: "Airline Data Analysis Dashboard",
       href: "https://github.com/sayyedfaixal/airline-data-analysis",
-      dates: "Jul 2024 - Jul 2024",
+      dates: "Jul 2024",
       active: true,
       description:
-        "**Developed an interactive dashboard** using Streamlit to analyze airline data stored in SQLite databases. The application allows users to upload SQLite files, dynamically select tables, and perform comprehensive **Data exploration and visualization**.",
+        "Built a Streamlit dashboard to explore airline data from SQLite databases. Users can upload DB files, explore tables, and visualize insights interactively.",
       technologies: [
         "Python",
         "Streamlit",
@@ -295,11 +311,11 @@ export const DATA = {
     {
       title: "QuickSell Kanban",
       href: "https://quicksell-omega-orpin.vercel.app/",
-      dates: "Sep 2024 - Sep 2024",
+      dates: "Sep 2024",
       active: true,
       description:
-        "This Kanban Board application was the assignment of **QuickSell** that was built using React.js + Vite and allows users to manage tasks effectively. The application fetches data from an **external API** and provides functionalities to **group and sort** tasks based on various criteria.",
-      technologies: ["Numpy", "Pandas", "Scikit-Learn", "Streamlit"],
+        "Assignment for QuickSell: A Kanban Board built using React + Vite. Supports task grouping, sorting, and fetching data from an external API.",
+      technologies: ["React.js", "Vite", "HTML/CSS", "Firebase"],
       links: [
         {
           type: "Project Demo",
@@ -319,10 +335,9 @@ export const DATA = {
       title: "Vyas AI",
       href: "https://vyasai.in/",
       dates: "Mar 2024 - Aug 2024",
-
       active: true,
       description:
-        "I have **kickstarted the work of VyasAI from scratch**. Suggesting the UI design, theme project planning, standup meetings etc and other feature on the website. Apart from this I have worked here as a **Data Scientist Intern** I have also **partially contributing and helping the interns that were working on this project**.",
+        "Kickstarted the VyasAI platform—from UI suggestions and theme planning to feature development. Contributed both as a Data Scientist Intern and as a full-stack developer supporting intern teams.",
       technologies: ["React.js", "HTMLCanvas", "TailwindCSS", "Firebase"],
       links: [
         {
@@ -340,7 +355,7 @@ export const DATA = {
       dates: "Mar 2022 - Apr 2022",
       active: true,
       description:
-        "Developed a web application using React, ReactBootstrap, and Firebase for Teach For India to manage volunteer registrations and classroom allocations. This was a Prework Assessment.",
+        "Built a React + Firebase application for Teach For India to manage volunteer registrations and classroom allocations. Developed as part of a pre-work assignment.",
       technologies: ["React.js", "ReactBootstrap", "ReactToast", "Firebase"],
       links: [
         {
@@ -355,11 +370,11 @@ export const DATA = {
     {
       title: "Mutual Fund Chatbot",
       href: "https://bot.dialogflow.com/19719ab7-c51b-4cfd-a171-b05810891d3e",
-      dates: "December 2018 - Mar 2019",
+      dates: "Dec 2018 - Mar 2019",
       active: true,
       description:
-        "Created and deployed a chatbot for handling customer queries at [KGiSL Mutual Fund](https://www.kgisl.com/). Integrated the Chatbot with multiple platforms, including WhatsApp, Telegram, Google Assistant, and external call APIs, to optimize accessibility and reach.",
-      technologies: ["Python", "HTML/CSS", "Flask", "MySQL", "DialogFlow"],
+        "Built a multilingual chatbot for KGiSL Mutual Fund using Dialogflow, Flask, and MySQL. Integrated with WhatsApp, Telegram, Google Assistant, and external call APIs.",
+      technologies: ["Python", "Flask", "MySQL", "DialogFlow", "HTML/CSS"],
       links: [
         {
           type: "Project Demo",
@@ -376,8 +391,8 @@ export const DATA = {
       dates: "Jan 2020 - Mar 2020",
       active: true,
       description:
-        "Chatbot a was a solution for the problem statement at Internal Smart India Hackathon  [SIH](https://www.sih.gov.in/). Chatbot provide healthcare information through a range of communication channels. Integrated the Chatbot with multiple platforms, including WhatsApp, Telegram, Google Assistant, and external call APIs, to optimize accessibility and reach.",
-      technologies: ["Python", "HTML/CSS", "Flask", "MySQL", "DialogFlow"],
+        "Developed a healthcare chatbot for the Smart India Hackathon internal round. Integrated across WhatsApp, Telegram, Google Assistant, and external APIs.",
+      technologies: ["Python", "Flask", "MySQL", "DialogFlow", "HTML/CSS"],
       links: [
         {
           type: "Project Demo",
@@ -398,8 +413,9 @@ export const DATA = {
       href: "https://technewsapi.netlify.app/",
       dates: "Feb 2023 - Mar 2023",
       active: true,
-      description: "Created to gain knowledge on pagination in React.",
-      technologies: ["React.Js", "HTML/CSS"],
+      description:
+        "Built a simple React-based project to understand pagination and API integration.",
+      technologies: ["React.js", "HTML/CSS"],
       links: [
         {
           type: "Project Demo",
@@ -411,38 +427,39 @@ export const DATA = {
       video: "",
     },
   ],
+
   hackathons: [
     {
       title: "Airbus Aerothon 3.0",
       dates: "Apr 2021 - May 2021",
       location: "M.H Saboo Siddik, India",
-      description:
-        "Reached up to the final round competing with 185 teams across India.",
+      description: "Reached the final round among 185 teams across India.",
       image:
         "https://media.hackerearth.com/media/hackathon/airbus-aerothon-30/images/5c1b4a489e-Aerothon_3_-_HE_BG_1.jpg",
       links: [],
     },
     {
       title: "Smart India Hackathon",
-      dates: "Jan 2020 - February 2020",
+      dates: "Jan 2020 - Feb 2020",
       location: "M.H Saboo Siddik, India",
       description:
-        "Participated in the Interal Smart India Hackathon. Awarded with the certificate for the same.",
+        "Participated in the Internal Smart India Hackathon and received a certificate of appreciation.",
       image:
         "https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2019/02/27/76205-2k19.jpg?itok=SoLxwejU",
       links: [],
     },
     {
-      title: "Winner of World's Largest Hackathon",
-      dates: "February 2019 - Mar 2019",
+      title: "Winner — Smart India Hackathon (Grand Finale)",
+      dates: "Feb 2019 - Mar 2019",
       location: "IIT Roorkee, India",
       description:
-        "Won the Smart India Hackathon 2019 Grand Finale held at IIT Roorkee. Awarded cash prize and a trophy for solving the problem statement of building a machine learning enabled chatbot for mutual funds.",
+        "Won the Smart India Hackathon 2019 Grand Finale at IIT Roorkee for building an ML-enabled chatbot for mutual funds. Awarded trophy and cash prize.",
       image:
         "https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2019/02/27/76205-2k19.jpg?itok=SoLxwejU",
       links: [],
     },
   ],
+
   teaching: [
     {
       title: "Python",
@@ -475,4 +492,4 @@ export const DATA = {
       links: [],
     },
   ],
-} as const;
+};
