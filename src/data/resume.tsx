@@ -197,6 +197,7 @@ export const DATA = {
       href: "https://faixal-movie.streamlit.app/",
       dates: "Mar 2024 - Apr 2024",
       active: true,
+      category: "AI Projects",
       description:
         "Built a content-based Movie Recommendation System using a dataset of 5000 TMDB movies. The Streamlit app provides an interactive interface powered by Python and Scikit-Learn.",
       technologies: ["Numpy", "Pandas", "Scikit-Learn", "Streamlit"],
@@ -220,6 +221,7 @@ export const DATA = {
       href: "https://quicksell-omega-orpin.vercel.app/",
       dates: "Aug 2024 - Oct 2024",
       active: true,
+      category: "AI Projects",
       description:
         "Implemented the MIRNet model for image restoration as part of an M.Tech project. Added a custom sharpening module to enhance texture and detail beyond the original architecture.",
       technologies: ["Numpy", "Pandas", "Keras", "TensorFlow"],
@@ -238,6 +240,7 @@ export const DATA = {
       href: "https://github.com/sayyedfaixal/credit-card-anomaly",
       dates: "Aug 2024",
       active: true,
+      category: "AI Projects",
       description:
         "Developed an anomaly detection system using the Kaggle Credit Card Fraud dataset. Handled extreme class imbalance (0.172% fraud) using ML techniques and visual analytics.",
       technologies: [
@@ -262,6 +265,7 @@ export const DATA = {
       href: "https://github.com/sayyedfaixal/cricket-score-predictor",
       dates: "Jun 2024",
       active: true,
+      category: "AI Projects",
       description:
         "Built an ML-based T20 Cricket Score Predictor using historical World Cup data. Considers runs, wickets, overs, teams, and venue to estimate final scores.",
       technologies: [
@@ -288,6 +292,7 @@ export const DATA = {
       href: "https://github.com/sayyedfaixal/airline-data-analysis",
       dates: "Jul 2024",
       active: true,
+      category: "AI Projects",
       description:
         "Built a Streamlit dashboard to explore airline data from SQLite databases. Users can upload DB files, explore tables, and visualize insights interactively.",
       technologies: [
@@ -313,6 +318,7 @@ export const DATA = {
       href: "https://quicksell-omega-orpin.vercel.app/",
       dates: "Sep 2024",
       active: true,
+      category: "Frontend",
       description:
         "Assignment for QuickSell: A Kanban Board built using React + Vite. Supports task grouping, sorting, and fetching data from an external API.",
       technologies: ["React.js", "Vite", "HTML/CSS", "Firebase"],
@@ -336,6 +342,7 @@ export const DATA = {
       href: "https://vyasai.in/",
       dates: "Mar 2024 - Aug 2024",
       active: true,
+      category: "Full Stack",
       description:
         "Kickstarted the VyasAI platform—from UI suggestions and theme planning to feature development. Contributed both as a Data Scientist Intern and as a full-stack developer supporting intern teams.",
       technologies: ["React.js", "HTMLCanvas", "TailwindCSS", "Firebase"],
@@ -354,6 +361,7 @@ export const DATA = {
       href: "https://teachforindia.netlify.app/",
       dates: "Mar 2022 - Apr 2022",
       active: true,
+      category: "Full Stack",
       description:
         "Built a React + Firebase application for Teach For India to manage volunteer registrations and classroom allocations. Developed as part of a pre-work assignment.",
       technologies: ["React.js", "ReactBootstrap", "ReactToast", "Firebase"],
@@ -372,6 +380,7 @@ export const DATA = {
       href: "https://bot.dialogflow.com/19719ab7-c51b-4cfd-a171-b05810891d3e",
       dates: "Dec 2018 - Mar 2019",
       active: true,
+      category: "Full Stack",
       description:
         "Built a multilingual chatbot for KGiSL Mutual Fund using Dialogflow, Flask, and MySQL. Integrated with WhatsApp, Telegram, Google Assistant, and external call APIs.",
       technologies: ["Python", "Flask", "MySQL", "DialogFlow", "HTML/CSS"],
@@ -390,6 +399,7 @@ export const DATA = {
       href: "https://bot.dialogflow.com/ee8686ac-01e2-4f1b-a108-942044cdc0ee",
       dates: "Jan 2020 - Mar 2020",
       active: true,
+      category: "Full Stack",
       description:
         "Developed a healthcare chatbot for the Smart India Hackathon internal round. Integrated across WhatsApp, Telegram, Google Assistant, and external APIs.",
       technologies: ["Python", "Flask", "MySQL", "DialogFlow", "HTML/CSS"],
@@ -413,6 +423,7 @@ export const DATA = {
       href: "https://technewsapi.netlify.app/",
       dates: "Feb 2023 - Mar 2023",
       active: true,
+      category: "Frontend",
       description:
         "Built a simple React-based project to understand pagination and API integration.",
       technologies: ["React.js", "HTML/CSS"],
